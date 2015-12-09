@@ -17,9 +17,11 @@
 ko.observable = function(initialValue) {};
 
 /**
- * @param  {function()} callback
+ * @param  {function(?):?} callback       [description]
+ * @param  {null}   callbackTarget [description]
+ * @param  {string=}   event          [description]
  */
-ko.observable.prototype.subscribe = function (callback) {};
+ko.observable.prototype.subscribe = function (callback, callbackTarget, event) {};
 
 ko.observableArray
 
