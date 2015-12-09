@@ -9,7 +9,12 @@
  /** @const - Knockout namespace */
  var ko = {};
 
-ko.observable
+ /**
+  * @constructor
+  * @param {?} initialValue
+  * @return {ko.observable}
+  */
+ ko.observable = function(initialValue) {};
 ko.observable.subscribe
 ko.observableArray
 ko.computed
