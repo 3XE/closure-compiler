@@ -17,7 +17,7 @@
 ko.observable = function(initialValue) {};
 
 /**
- * @param  {Function():} callback
+ * @param  {Function()} callback
  */
 ko.observable.subscribe = function (callback) {};
 
