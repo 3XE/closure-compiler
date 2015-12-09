@@ -9,14 +9,20 @@
  /** @const - Knockout namespace */
  var ko = {};
 
- /**
-  * @constructor
-  * @param {?} initialValue
-  * @return {ko.observable}
-  */
- ko.observable = function(initialValue) {};
-ko.observable.subscribe
+/**
+ * @constructor
+ * @param {?} initialValue
+ * @return {ko.observable}
+ */
+ko.observable = function(initialValue) {};
+
+/**
+ * @param  {Function():} callback
+ */
+ko.observable.subscribe = function (callback) {};
+
 ko.observableArray
+
 ko.computed
 
 ko.components.register
