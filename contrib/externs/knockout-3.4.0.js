@@ -11,7 +11,7 @@
 
 /**
  * @constructor
- * @param {?} initialValue
+ * @param {?=} initialValue
  * @return {ko.observable}
  */
 ko.observable = function(initialValue) {};
